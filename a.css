@@ -1,0 +1,56 @@
+.clearfix{
+    content: "";
+    display: block;
+    clear: both;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+
+}
+.NavigationBar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.NavigationBar .logo .mogo{
+    float: left;
+    font-size: 24px;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    margin-left: 250px;
+    padding-top: 35px;
+    color: white;
+}
+.NavigationBar .logo .menu{
+    float: right;
+    margin-right: 100px;
+    padding-top: 40px;
+}
+.NavigationBar .logo .menu > ul > li{
+    float: left;
+    margin-right: 56px;
+}
+.NavigationBar .logo .menu > ul > li > a{
+    text-decoration: none;
+    color: #ffffff;
+    padding-bottom: 12px;
+    border-bottom: 3px solid transparent;
+}
+.NavigationBar .logo .menu > ul > li > a:hover{
+    color: #fce38a;
+    border-bottom: 3px solid #fce38a;
+    border-radius: 2px;
+    transition: all 0.2s;
+}
+
+body > .baner{
+    background-image: url(./images/anner_01.png);
+    height: 1000px;
+    background-position: center center;
+    background-size: cover;
+}
