@@ -1,0 +1,54 @@
+a <- {
+    '0': 5,
+    '1': 2,
+    '2': 3,
+    '3': 4,
+    '4': 2,
+    '5': 4,
+    'lenght': 6,
+}
+hash <- a{}
+index <- 0
+    while( index < a['lenght'])
+        number <- a[index]{
+        if{
+            hush[number] == underfined
+            hush[number] == 1
+        }
+        else{
+            hush[number] == hush[number] +1
+        }
+        index <- index + 1
+    }
+
+/*入桶*/
+
+max <- a['0']
+index <- 1
+    while(index < a['lenght']){
+        if{
+            a[index] > max
+            max <- a[index] 
+        }
+            index == index + 1
+    }
+    print max
+
+/*找出a中的最大值*/
+
+index2 <- 0
+max < a中的最大值 //上面已经找出
+newArr <- a{}    //新声明一个值
+    while(index2 < max + 1) 
+        count <- index[hush]{
+        if{
+            count != underfined  //此数字存在
+            countIndex <- 0      //不计算次数
+        }while(countIndex < count){  //countIndex取值范围
+            newArr.push(index2)
+            countIndex <- countIndex + 1 //countIndex值加一 
+        }
+    index2 <- index2 + 1 //轮数加一
+    }
+    print newArr
+
